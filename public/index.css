@@ -1,0 +1,87 @@
+@import "style.css";
+
+
+
+body {
+    color: black;
+    font: 400 14px/1 'Roboto', sans-serif;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+.course {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course h1 {
+
+    margin-bottom: 2rem;
+}
+
+.course img {
+    max-width: 600px;
+    height: auto;
+}
+
+.course .price.big {
+    font-size: 2.5rem;
+}
+
+.card-action.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-form {
+    margin-bottom: 15px;
+}
+
+.auth {
+    padding-top: 100px;
+}
+
+.enter {
+    font-size: 20px;
+    text-align: center;
+}
+.course-title {
+    text-align: center;
+}
+
+.alert {
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background: rgba(255, 0, 0, 0.3);
+    color: red;
+}
+
+.error {
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+

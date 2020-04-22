@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node js",
+  "main": "index.js",
+  "scripts": {
+    "srart": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Ihar Mrachko <ihormrochko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.3",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.4.0",
+    "handlebars": "^4.5.3",
+    "helmet": "^3.22.0",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "uuid": "^7.0.3"
+  }
+}
